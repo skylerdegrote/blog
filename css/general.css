@@ -1,0 +1,45 @@
+footer {
+	background-color: black;
+	color:white;
+	text-align: center;
+	padding-top:35px;
+	font-size: 14px;
+	height: 100px;
+}
+
+.main {
+	min-height: 600px;
+	background-color: white;
+}
+
+.columns {
+	/*border:2px black solid;*/
+	margin-top: 5px;
+	padding:20px;
+}
+
+.title-bar, .top-bar {
+	padding:20px;
+}
+
+#main-menu, .is-submenu-item, .has-submenu, .menu-text, li, ul.vertical, ul.dropdown {
+	background-color: black;
+	color:white;
+}
+
+a {
+	color:white;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+a:active {
+	background-color: white;
+	color:black;
+}
+
