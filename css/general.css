@@ -1,19 +1,29 @@
+
+
 footer {
-	background-color: black;
+	background-color: #323232;
 	color:white;
 	text-align: center;
-	padding-top:35px;
+	padding-top:15px;
 	font-size: 14px;
-	height: 100px;
+	height: 50px;
 }
 
-.main {
-	min-height: 600px;
-	background-color: white;
+li p {
+	margin:5px;
+	width:180px;
+	text-align: center;
+}
+
+
+
+.blog-post {
+	border:5px #323232 solid;
+	margin-top:50px;
+	box-shadow: 10px 10px 5px #323232;
 }
 
 .columns {
-	/*border:2px black solid;*/
 	margin-top: 5px;
 	padding:20px;
 }
@@ -23,7 +33,7 @@ footer {
 }
 
 #main-menu, .is-submenu-item, .has-submenu, .menu-text, li, ul.vertical, ul.dropdown {
-	background-color: black;
+	background-color: #323232;
 	color:white;
 }
 
@@ -33,13 +43,23 @@ a {
 
 a:hover {
 	background-color: white;
-	color: black;
+	color: #323232;
 	text-decoration: underline;
 	font-weight: bolder;
 }
 
-a:active {
-	background-color: white;
+a.active {
+	background-color: #323232;
+	color:white;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.main a {
 	color:black;
 }
 
+.main a:hover {
+	font-weight: normal;
+}
